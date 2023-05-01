@@ -20,7 +20,11 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <a class="navbar-brand" asp-area="" asp-controller="Crud" asp-action="GetListProducts">Product</a>
+                    <div class="navbar-band">
+                        <a class="navbar-band" asp-area="" asp-controller="Crud" asp-action="GetListProducts">Product</a>
+                        <a class="navbar-band" asp-area="Identity" asp-page="/Account/Register">Create Admin User</a></a>
+                        <a class="navbar-band" asp-controller="Customer" asp-action="Secret">Secret</a>
+                    </div>
                 </div>
                 <partial name="_LoginPartial" />
             </div>

@@ -12,6 +12,7 @@ namespace ProductStoreTask.Data
         {
         }
 
+        public virtual DbSet<ApplicationUser> ApplicationUsers { get; set; }
         
     }
 } 

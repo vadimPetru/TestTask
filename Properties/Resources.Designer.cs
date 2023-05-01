@@ -61,6 +61,24 @@ namespace ProductStoreTask.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Admin.
+        /// </summary>
+        internal static string AdminRole {
+            get {
+                return ResourceManager.GetString("AdminRole", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Customer.
+        /// </summary>
+        internal static string CustomerRole {
+            get {
+                return ResourceManager.GetString("CustomerRole", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to \images\product\.
         /// </summary>
         internal static string ImagePath {

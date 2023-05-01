@@ -123,6 +123,7 @@ namespace ProductStoreTestTask.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles ="Admin")]
         public  IActionResult GetListProducts()
         {
             var listProduct =_product.GetProductsListAsync();
